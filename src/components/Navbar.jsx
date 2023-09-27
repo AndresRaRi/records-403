@@ -15,7 +15,7 @@ import SearchWidget from "./SearchWidget";
 const Navbar = () => {
   return (
     <Box>
-      <AppBar position="static">
+      <AppBar position="static" style={{ background: '#ff9100' }}>
         <Toolbar>
           <IconButton
             size="large"
