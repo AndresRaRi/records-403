@@ -38,9 +38,8 @@ const Navbar = () => {
             <Button color="inherit">Registrarse</Button>
             <Button color="inherit">Iniciar Sesión</Button>
             <SearchWidget />
-          <CartWidget />
+            <CartWidget />
           </Stack>
-
         </Toolbar>
       </AppBar>
     </Box>

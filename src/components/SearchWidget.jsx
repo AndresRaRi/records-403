@@ -5,7 +5,7 @@ import SearchIcon from "@mui/icons-material/Search";
 const SearchWidget = () => {
   return (
     <Box>
-      <InputBase placeholder="Buscar en Records 403"></InputBase>
+      <InputBase placeholder="Buscar..."></InputBase>
       <Button color="inherit">
         <SearchIcon />
       </Button>
