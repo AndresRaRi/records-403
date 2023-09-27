@@ -1,17 +1,18 @@
 import React from "react";
-import { IconButton } from "@mui/material";
+import { Box, Badge, Button } from "@mui/material";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 const CartWidget = () => {
   return (
-    <>
-      <IconButton color="inherit">
-        Tu Carrito
-        <ShoppingCartIcon />
-        10
-      </IconButton>
-    </>
+    <Box>
+      <Button color="inherit">
+        Tu carrito
+        <Badge badgeContent={50} color="error">
+          <ShoppingCartIcon />
+        </Badge>
+      </Button>
+    </Box>
   );
-}
+};
 
-export default CartWidget; 
+export default CartWidget;

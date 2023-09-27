@@ -1,16 +1,16 @@
 import React from "react";
-import { InputBase, IconButton } from "@mui/material";
+import { InputBase, Box, Button } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 
 const SearchWidget = () => {
   return (
-    <>
-      <InputBase></InputBase>
-      <IconButton color="inherit">
+    <Box>
+      <InputBase placeholder="Buscar en Records 403"></InputBase>
+      <Button color="inherit">
         <SearchIcon />
-      </IconButton>
-    </>
+      </Button>
+    </Box>
   );
-}
+};
 
-export default SearchWidget; 
+export default SearchWidget;
